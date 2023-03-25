@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(238, 218, 162);
+    
+}
+div{
+    
+    width: 70%;
+    height: 70%;
+    margin: 20px auto;
+}
+.tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 70%;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px;
+}
+input{
+    width: auto;
+    text-align: left;
+    border: unset;
+    border-bottom: 1px dashed rgb(0, 0, 0);
+    padding-left: 20px;
+}
+ul{
+    align-items: center;
+    align-self: center;
+    list-style: none;
+    padding: 50px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+button{
+    text-align: right;
+    text-decoration: none;
+}
+.statistics{
+    width: 100%;
+    text-align: end;
+    margin: 1px;
+}
